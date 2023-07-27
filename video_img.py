@@ -56,5 +56,5 @@ def save_frame_range(in_adress, out_adress, start_frame, stop_frame, step_frame)
 path_in = r"...\dataset404\nuevos_videos\20230410_114709.mp4"
 path_out = r"...\dataset404\nuevas_imagenes"
 
-stop_fr= 73*30
+stop_fr= 73*30  #seconds * frame/seconds
 save_frame_range(path_in,path_out,0,stop_fr,15)
