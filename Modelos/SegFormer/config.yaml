@@ -1,0 +1,13 @@
+DATASET:
+  DATA_DIR: "/homelocal/yadirapr_local/Datos/"
+  NUM_CLASSES: 4
+  NUM_TRAIN_IMAGES: 323
+  NUM_TEST_IMAGES: 79
+
+MODEL:
+  SAVE_MODEL: "/homelocal/yadirapr_local/repo_modelos/Deeplabv3/modelo_prueba"
+
+TRAIN:
+  BATCH_SIZE: 32
+  NUM_EPOCHES: 2
+  LEARNING_RATE: 0.0001
