@@ -1,3 +1,4 @@
+#### Contenido del archivo config.yaml
 DATASET:
 - DATA_DIR: Ruta del directorio que contiene los datos.
 - NUM_CLASSES: Número de clases en el conjunto de datos (nuestro caso 4 clases).
