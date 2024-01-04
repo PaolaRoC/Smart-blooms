@@ -15,3 +15,5 @@ Argumentos a introducir en `inferir_trt.py` :
 | Modelo | Placa | Precision | mIoU | AguaIoU | CyanoIoU | Batch | Tiempo min | Tiempo max | Tiempo mean | Img/s |
 |--------|-------|-----------|------|---------|----------|-------|------------|------------|-------------|-------|
 |        |       |           |      |         |          |       |            |            |             |       |
+
+Si se quiere generar un archivo CSV con información de diferentes modelos, precisión y Batch usar `inferir_dif.sh`
