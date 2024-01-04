@@ -12,7 +12,7 @@ def main():
     parser.add_argument(
      '--load_tempmodel', help='load the temporary ONNX model.', required=True)
     parser.add_argument(
-    '--save_onnxmodel', help='Save the ONNX model with explicit batch', required=True)
+    '--save_onnxmodel', help='Save the ONNX model', required=True)
     args = parser.parse_args()
     
 
