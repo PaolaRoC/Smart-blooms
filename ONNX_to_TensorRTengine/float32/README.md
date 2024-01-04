@@ -7,7 +7,7 @@ trtexec --onnx=model_gn.onnx --saveEngine=model_gn.trt --exportProfile=model_gn.
 
 - **`--onnx=model_gn.onnx`**: Especifica la ruta del archivo ONNX del modelo que se utilizará para construir el motor TensorRT.
 
-- **`--saveEngine=model_gn.trt`**: Indica la ruta donde se guardará el motor TensorRT resultante después de la conversión desde ONNX.
+- **`--saveEngine=model_gn.trt`**: Indica la ruta donde se guardará el motor TensorRT resultante después de la conversión desde ONNX. El nombre del archivo debe ser ./nombremodelo_FP32_nombreplaca.trt
 
 - **`--exportProfile=model_gn.json`**: Genera un archivo JSON (model_gn.json) que contiene información de perfilado del modelo, como tiempos de ejecución por capa.
 
