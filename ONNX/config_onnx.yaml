@@ -1,0 +1,9 @@
+DATASET:
+  NUM_CLASSES: 4
+
+MODEL:
+  TYPE: "Deeplabv3Plus"
+  NET_BACKBONE: "DenseNet201"
+  MODEL_PATH: "./epoch_400.pth"
+  ONNX_PATH: "./onnx_path.onnx"
+  DYNAMIC_SHAPE: False
