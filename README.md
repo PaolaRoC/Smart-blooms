@@ -1,4 +1,4 @@
 # Smart-blooms
-Segmentación semántica en entornos de Edge computing para la detección de colonias de cianobacterias
+Overview of our CyanoHABs detection system
 
 ![Image text](https://github.com/PaolaRoC/Smart-blooms/blob/main/assets/summary_Cyano_det.png)
