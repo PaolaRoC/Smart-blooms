@@ -1,0 +1,9 @@
+DATASET:
+  DATA_DIR: "./Datos_originales/"
+  NUM_CLASSES: 5
+
+MODEL:
+  MODEL_PATH: "./segformer_b3v2_224_10_420_0001/epoch_400/"
+
+OUTPUT:
+  PREDICTED_MASK_PATH: "./predicted_mask/"

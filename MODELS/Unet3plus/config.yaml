@@ -1,0 +1,14 @@
+DATASET:
+  DATA_DIR: "/scratch/yadirapr/Datos_originales/"
+  NUM_CLASSES: 4
+  IMG_SIZE: 224
+
+MODEL:
+  NET_BACKBONE: "DenseNet201"
+  SAVE_MODEL: "/scratch/yadirapr/Respositorio/Unet_3plus_pytorch"
+  MULTI_GPU: False
+
+TRAIN:
+  BATCH_SIZE: 12
+  NUM_EPOCHS: 452
+  LEARNING_RATE: 0.0001

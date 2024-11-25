@@ -1,0 +1,14 @@
+DATASET:
+  DATA_DIR: "/home/Datos_originales/"
+  NUM_CLASSES: 5
+  IMG_SIZE: 224
+
+MODEL:
+  NET_BACKBONE: "DenseNet201"
+  SAVE_MODEL: "/home/Model/Deeplabv3_pytorch/"
+  MULTI_GPU: False
+
+TRAIN:
+  BATCH_SIZE: 12
+  NUM_EPOCHS: 430
+  LEARNING_RATE: 0.001

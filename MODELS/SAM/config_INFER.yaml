@@ -1,0 +1,10 @@
+DATASET:
+  DATA_DIR: "./Datos_originales/"
+  NUM_CLASSES: 5
+
+MODEL:
+  LORA_PATH: "./SAM/output/Cyano_224_pretrain_vit_b_epo404_bs12_lr0.001/epoch_319.pth"
+  RANK: 4
+
+OUTPUT:
+  PREDICTED_MASK_PATH: "./predicted_mask/"

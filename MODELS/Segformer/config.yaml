@@ -1,0 +1,12 @@
+DATASET:
+  DATA_DIR: "/home/Datos_originales/"
+  IMG_SIZE: 224
+
+MODEL:
+  NET_VERSION: "nvidia/mit-b4"
+  SAVE_MODEL: "/home/Model//Segformer/segformer_b4v2_224_10_420_0001"
+
+TRAIN:
+  BATCH_SIZE: 12
+  NUM_EPOCHS: 430
+  LEARNING_RATE: 0.001

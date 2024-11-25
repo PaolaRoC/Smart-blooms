@@ -1,0 +1,10 @@
+DATASET:
+  DATA_DIR: "./Datos_originales/"
+  NUM_CLASSES: 5
+
+MODEL:
+  NET_BACKBONE: "DenseNet201"
+  MODEL_PATH: "./ResNet50_224_12_430_0001/epoch_400.pth"
+
+OUTPUT:
+  PREDICTED_MASK_PATH: "./predicted_mask/"
